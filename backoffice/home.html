@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Principal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!--reedireccion a login-->
+    <script>
+        window.location.replace("index.html");
+    </script>
+</head>
+<body class="dashboard-body">
+
+    <aside class="sidebar">
+        <h2>Admin Panel</h2>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Mis Proyectos</a></li>
+                <li><a href="#">New Proyecto</a></li>
+                <li><a href="index.html" class="logout">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="dashboard-content">
+        <header class="dashboard-header">
+            <h1>Gestión de Portafolio</h1>
+            <button class="btn-primary">+ Agregar Proyecto</button>
+        </header>
+
+        <section class="projects-grid">
+            <article class="project-card">
+                <h3>Proyecto de Ejemplo</h3>
+                <p>Aquí se mostrarán los proyectos consumidos desde la API.</p>
+            </article>
+        </section>
+    </main>
+
+</body>
+</html>
